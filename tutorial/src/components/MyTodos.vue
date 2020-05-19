@@ -10,6 +10,8 @@
         </div>
       </div>
       <div id="posts">
+      <div class="top-margin">
+      </div>
         <div id="my-to-dos-post-1" class="post">
           <div class="my-to-dos-header">
             <div class="inline-p my-to-dos-names">Ellaria Dorne</div>
@@ -215,13 +217,21 @@ export default {
 }
 #posts {
   width: calc(100% - 20px);
+  height:600px;
+  overflow:hidden;
+  
+}
+.top-margin{
+    height:1.5vmin;
+}.my-to-dos-image{
+    margin:1vmin 1vmin 1vmin 1vmin;
 }
 .my-to-dos-header {
   background-color: #f4f4f4;
   font-size: 12px;
   font-weight: 400;
   line-height: 14px;
-  padding: 3vmin 4vmin 3vmin 3vmin;
+  padding: 1.5vmin 2vmin 1.5vmin 1.5vmin;
 }
 .to-dos-date {
   color: #c6c6c6;
@@ -243,6 +253,7 @@ export default {
   top: 0;
   margin: 0 2vmin 0 2vmin;
   width: calc(40% - 4vmin);
+
 }
 .to-dos-data-label {
   color: #c6c6c6;
