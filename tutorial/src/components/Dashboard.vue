@@ -10,11 +10,12 @@
     </div>
     <div class="relative">
       <OngoingCamps />
-      <div id="lover-panel">
+      <div id="lower-panel">
         <Statistics />
         <TopInfluencers />
       </div>
       <MyTodos />
+      <Twitter />
     </div>
   </div>
 </template>
@@ -24,6 +25,7 @@ import OngoingCamps from "./OngoingCamps.vue";
 import Statistics from "./Statistics.vue";
 import TopInfluencers from "./TopInfluencers.vue";
 import MyTodos from "./MyTodos.vue";
+import Twitter from "./Twitter.vue";
 
 export default {
   name: "App",
@@ -32,11 +34,10 @@ export default {
     Statistics,
     TopInfluencers,
     MyTodos,
+    Twitter,
   },
   data() {
-    return {
-     
-    };
+    return {};
   },
 };
 </script>
