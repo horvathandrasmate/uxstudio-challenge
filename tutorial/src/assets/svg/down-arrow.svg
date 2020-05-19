@@ -4,5 +4,5 @@
   <defs>
     <image width="24" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAALhJREFUSA3tlG0PgjAMhKm/WoHwEiD4r2erp5k61orrN5aMjO3unqU0UAih8hwnz3DJPgBqhd1LRHyFnudFvco+wVqhTRf2S7+WnMs9Wx6AzAUB8yv3uQBkKgCZ3jLjF0DGPyDjV97nBiDDDsiQzEptAiLdZf3o/WbO1gEgnQHSZTNyh4C0GUir+jUBIE0C0pi8FhEgdQSprT6Cmb36IKKzqNhz1dUPxU8Aa2isc/+bHoC43Mm1e4luTbzO3Ppf/K4AAAAASUVORK5CYII=" id="img_1" />
   </defs>
-  <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="scale(0.5 0.5)" />
+  <use xlink:href="#img_1" fill="#D9D9D9" stroke="none" transform="scale(0.5 0.5)" />
 </svg>
