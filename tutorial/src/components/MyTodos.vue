@@ -10,7 +10,7 @@
         </div>
       </div>
       <div id="posts">
-        <div id="my-to-dos-post-1">
+        <div id="my-to-dos-post-1" class="post">
           <div class="my-to-dos-header">
             <div class="inline-p my-to-dos-names">Ellaria Dorne</div>
             <div class="inline-p">
@@ -44,13 +44,17 @@
 
             <table class="post-buttons">
               <tr>
-                <td class="add-to-favourites-btn">ACCEPT</td>
-                <td class="add-to-favourites-btn">DECLINE</td>
+                <td>
+                  <button class="add-to-favourites-btn">ACCEPT</button>
+                </td>
+                <td>
+                  <button class="add-to-favourites-btn">DECLINE</button>
+                </td>
               </tr>
             </table>
           </div>
         </div>
-        <div id="my-to-dos-post-2">
+        <div id="my-to-dos-post-2" class="post">
           <div class="my-to-dos-header">
             <div class="inline-p my-to-dos-names">Amy Champeon</div>
             <div class="inline-p">
@@ -74,8 +78,12 @@
                       <td class="to-dos-number">3 567</td>
                     </tr>
                     <tr>
-                      <td class="to-dos-data-label">INSTAGRAM FOLLOWERS</td>
-                      <td class="to-dos-data-label">SNAPCHAT FOLLOWERS</td>
+                      <td class="to-dos-data-label">INSTAGRAM</td>
+                      <td class="to-dos-data-label">SNAPCHAT</td>
+                    </tr>
+                    <tr>
+                      <td class="to-dos-data-label">FOLLOWERS</td>
+                      <td class="to-dos-data-label">FOLLOWERS</td>
                     </tr>
                   </table>
                 </td>
@@ -84,13 +92,17 @@
 
             <table class="post-buttons">
               <tr>
-                <td class="add-to-favourites-btn">ACCEPT</td>
-                <td class="add-to-favourites-btn">DECLINE</td>
+                <td>
+                  <button class="add-to-favourites-btn">ACCEPT</button>
+                </td>
+                <td>
+                  <button class="add-to-favourites-btn">DECLINE</button>
+                </td>
               </tr>
             </table>
           </div>
         </div>
-        <div id="my-to-dos-post-3">
+        <div id="my-to-dos-post-3" class="post">
           <div class="my-to-dos-header">
             <div class="inline-p my-to-dos-names">Mike Jones</div>
             <div class="inline-p">
@@ -124,8 +136,12 @@
 
             <table class="post-buttons">
               <tr>
-                <td class="add-to-favourites-btn">ACCEPT</td>
-                <td class="add-to-favourites-btn">DECLINE</td>
+                <td>
+                  <button class="add-to-favourites-btn">ACCEPT</button>
+                </td>
+                <td>
+                  <button class="add-to-favourites-btn">DECLINE</button>
+                </td>
               </tr>
             </table>
           </div>
@@ -137,12 +153,11 @@
 <script>
 export default {
   name: "App",
-  
+
   data() {
     return {
-      
       instagramGreySVG: require("../assets/svg/instagram-grey.svg"),
-      
+
       todos1SVG: require("../assets/svg/todos-1.svg"),
       todos2SVG: require("../assets/svg/todos-2.svg"),
       todos3SVG: require("../assets/svg/todos-3.svg"),
@@ -151,11 +166,11 @@ export default {
 };
 </script>
 <style>
-
 #my-to-dos-content {
   background-color: #d8d8d8;
   height: 600px;
   width: 100%;
+  border-radius: 3px;
 }
 #my-to-dos-title {
   color: #484848;
@@ -167,6 +182,7 @@ export default {
   width: 20px;
   height: 600px;
   background-color: #c6c6c6;
+  border-top-right-radius:3px;
 }
 #my-to-dos-scrollbar {
   height: 120px;
@@ -202,6 +218,10 @@ export default {
 }
 .my-to-dos-header {
   background-color: #f4f4f4;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  padding: 3vmin 4vmin 3vmin 3vmin;
 }
 .to-dos-date {
   color: #c6c6c6;
@@ -223,7 +243,31 @@ export default {
   top: 0;
   margin: 0 2vmin 0 2vmin;
   width: calc(40% - 4vmin);
-  overflow-y: auto;
 }
-
-</style>
+.to-dos-data-label {
+  color: #c6c6c6;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 10px;
+}
+.post {
+  width: calc(100% - 20px - 1vmin);
+  margin: 0.5vmin auto;
+  margin-top: 1vmin;
+  border-radius: 3px;
+  border: 1px solid #FFFFFF;
+}
+.post-buttons td {
+  text-align: center;
+  width:50%;
+}
+.post-buttons td button{
+    background-color:#FFFFFF;
+    width:80%;
+    margin: 2vmin 0 1vmin 0;
+}
+.post-buttons{
+    border-top: 1px solid #d9d9d9;
+     
+}
+</style> 

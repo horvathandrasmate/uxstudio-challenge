@@ -14,7 +14,7 @@
         <Statistics />
         <TopInfluencers />
       </div>
-      <MyTodos />
+      
     </div>
   </div>
 </template>
