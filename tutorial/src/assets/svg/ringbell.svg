@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_1">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+      <feOffset dx="0" dy="2" />
+      <feGaussianBlur stdDeviation="1" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3098039 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect0_dropShadow" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect0_dropShadow" result="shape" />
+    </filter>
+  </defs>
+  <g id="NOTI" transform="translate(0.5 0.5)">
+    <g filter="url(#filter_1)">
+      <path d="M12.5 25C19.4036 25 25 19.4036 25 12.5C25 5.59644 19.4036 0 12.5 0C5.59644 0 0 5.59644 0 12.5C0 19.4036 5.59644 25 12.5 25Z" transform="translate(2 0)" id="Oval-56" fill="#F60051" stroke="none" />
+    </g>
+    <path d="M3.34707 0.41143C5.63171 0.36422 6.35838 1.50672 7.75656 4.51533C8.34577 5.78205 9.29637 5.05599 9.7659 6.37115C10.1084 7.32995 8.42609 9.29282 5.76095 10.2815C3.09581 11.2705 0.569731 10.869 0.227238 9.91024C-0.0124913 9.23858 0.179612 8.89258 0.378642 8.5341C0.56933 8.19064 0.766376 7.83574 0.596095 7.17201C-0.229174 3.95113 -0.393247 2.59968 1.38642 1.13897C2.02063 0.618667 1.48869 0.282183 2.10856 0.052138C2.42211 -0.0640722 2.52725 0.0332672 2.6596 0.155805C2.78911 0.275709 2.94468 0.419739 3.34707 0.41143ZM5.47168 9.47136C3.09152 10.3545 1.13528 9.83495 1.05263 9.60417C0.910139 9.20588 1.821 7.87748 4.54218 6.86766C7.26361 5.85796 8.78208 6.23233 8.94088 6.67722C9.03481 6.93988 7.85209 8.58821 5.47168 9.47136ZM2.03792 8.7941C2.59746 8.31856 3.46234 7.79041 4.70674 7.32861C4.86885 7.26852 5.02643 7.21358 5.17996 7.16282C5.18278 7.17042 5.18694 7.17729 5.18952 7.18501C5.41699 7.82131 4.842 8.61887 3.90551 8.96627C3.16976 9.23923 2.43167 9.15192 2.03792 8.7941Z" transform="translate(10 7)" id="Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>

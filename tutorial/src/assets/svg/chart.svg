@@ -1,0 +1,42 @@
+<svg class="graph" aria-labelledby="title" role="img">
+            <title id="title">A line chart showing some information</title>
+
+            <g class="labels x-labels">
+              <text x="45" y="155">MON</text>
+              <text x="85" y="155">TUE</text>
+              <text x="125" y="155">WED</text>
+              <text x="165" y="155">THU</text>
+              <text x="205" y="155">FRI</text>
+              <text x="245" y="155">SAT</text>
+              <text x="285" y="155">SUN</text>
+            </g>
+            <g class="labels y-labels">
+              <text x="25" y="125">0</text>
+              <text x="25" y="100">25</text>
+              <text x="25" y="75">50</text>
+              <text x="25" y="50">75</text>
+              <text x="25" y="25">100</text>
+            </g>
+            <g class="grid x-grid">
+              <line x1="30" x2="285" y1="125" y2="125"></line>
+              <line x1="30" x2="285" y1="100" y2="100"></line>
+              <line x1="30" x2="285" y1="75" y2="75"></line>
+              <line x1="30" x2="285" y1="50" y2="50"></line>
+              <line x1="30" x2="285" y1="25" y2="25"></line>
+            </g>
+            <polyline
+              fill="none"
+              stroke="#F60051"
+              stroke-width="2"
+              points="
+                 45,125
+       85,100
+       125,117.5
+       165,67.5
+       205,100
+       245,25
+       285,75
+
+       
+            "
+            />
