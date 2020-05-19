@@ -25,7 +25,7 @@ import OngoingCamps from "./OngoingCamps.vue";
 import Statistics from "./Statistics.vue";
 import TopInfluencers from "./TopInfluencers.vue";
 import MyTodos from "./MyTodos.vue";
-import Twitter from "./Twitter.vue";
+// import Twitter from "./Twitter.vue";
 
 export default {
   name: "App",
@@ -34,7 +34,7 @@ export default {
     Statistics,
     TopInfluencers,
     MyTodos,
-    Twitter,
+    // Twitter,
   },
   data() {
     return {};

@@ -247,7 +247,7 @@ box-shadow: inset -9px 12px 7px -15px rgba(0,0,0,0.63);
 }
 
 #statistics-container {
-  width: calc(50% - 4vmin);
+  /* width: calc(50% - 2vmin); */
   max-width: 325px;
   margin: 0 2vmin 0 2vmin;
   border-radius: 3px;

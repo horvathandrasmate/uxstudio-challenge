@@ -170,7 +170,7 @@ export default {
 <style>
 #my-to-dos-content {
   background-color: #d8d8d8;
-  height: 600px;
+  height: 700px;
   width: 100%;
   border-radius: 3px;
 }
@@ -179,10 +179,11 @@ export default {
   font-size: 16px;
   font-weight: 300;
   line-height: 18px;
+  margin-bottom: 10px;
 }
 #my-to-dos-scrollbar-holder {
   width: 20px;
-  height: 600px;
+  height: 700px;
   background-color: #c6c6c6;
   border-top-right-radius:3px;
 }
@@ -217,7 +218,7 @@ export default {
 }
 #posts {
   width: calc(100% - 20px);
-  height:600px;
+  height:700px;
   overflow:hidden;
   
 }
@@ -246,13 +247,14 @@ export default {
   line-height: 17px;
 }
 #my-to-dos-container {
-  height: 650px;
+  height: 750px;
   overflow: hidden;
   position: absolute;
   right: 0;
   top: 0;
-  margin: 0 2vmin 0 2vmin;
+  margin: 0 -5vmin 0 2vmin;
   width: calc(40% - 4vmin);
+  margin-left: 300px;
 
 }
 .to-dos-data-label {

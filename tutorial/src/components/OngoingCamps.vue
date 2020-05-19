@@ -267,7 +267,7 @@ export default {
 }
 #ongoing-camps {
   margin-left: 2vmin;
-  width: calc(60% - 2vmin);
+  width: calc(60% + 4vmin);
 
   margin-right: 2vmin;
 }

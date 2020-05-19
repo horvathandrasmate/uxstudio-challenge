@@ -140,6 +140,8 @@ export default {
 #top-influencers-container {
   width: 300px;
   border-radius: 3px;
+  left: 370px;
+  top: 0px;
 }
 .influencers-picture img {
   margin: 1.5vmin 2vmin 1.5vmin 2vmin;
