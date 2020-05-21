@@ -134,6 +134,9 @@ export default {
   background-color: #ffffff;
   padding: 10px;
   padding-top: 0;
+  border-radius:3px;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.09); 
+
   /* padding-right: 0; */
 }
 .statistics-header td {
