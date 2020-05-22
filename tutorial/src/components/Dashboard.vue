@@ -12,8 +12,9 @@
       <OngoingCamps />
       <div id="lower-panel">
         <Statistics />
-        <TopInfluencers />
       </div>
+        <TopInfluencers />
+      <!-- <br> -->
       <MyTodos />
       <Twitter />
     </div>

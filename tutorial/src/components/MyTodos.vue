@@ -168,7 +168,8 @@ export default {
 };
 </script>
 <style>
-#my-to-dos-content {
+@media screen and (min-width: 1065px){
+ #my-to-dos-content {
   background-color: #d8d8d8;
   height: 700px;
   width: 100%;
@@ -282,5 +283,126 @@ export default {
 .post-buttons{
     border-top: 1px solid #d9d9d9;
      
+} 
+}
+@media screen and (max-width: 1065px) {
+  #my-to-dos-content {
+  background-color: #d8d8d8;
+  height: 700px;
+  width: 100%;
+  border-radius: 3px;
+}
+#my-to-dos-title {
+  color: #484848;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+#my-to-dos-scrollbar-holder {
+  width: 20px;
+  height: 700px;
+  background-color: #c6c6c6;
+  border-top-right-radius:3px;
+}
+#my-to-dos-scrollbar {
+  height: 120px;
+  width: 10px;
+  background-color: #a6a6a6;
+  border-radius: 13px;
+  right: 25%;
+  left: 25%;
+  top: 10px;
+}
+.my-to-dos-content {
+  width: calc(100%-20px);
+  background-color: white;
+}
+
+.my-to-dos-names {
+  color: #f60051;
+}
+.hashtags {
+  color: #c6c6c6;
+}
+.post-text {
+  color: #484848;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+}
+.post-data {
+  background-color: #ffffff;
+}
+#posts {
+  width: calc(100% - 20px);
+  height:700px;
+  overflow:hidden;
+  
+}
+.top-margin{
+    height:1.5vmin;
+}.my-to-dos-image{
+    margin:1vmin 1vmin 1vmin 1vmin;
+}
+.my-to-dos-header {
+  background-color: #f4f4f4;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  padding: 1.5vmin 2vmin 1.5vmin 1.5vmin;
+}
+.to-dos-date {
+  color: #c6c6c6;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 11px;
+}
+.to-dos-number {
+  color: #f60051;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}
+#my-to-dos-container {
+  height: 750px;
+  overflow: hidden;
+  /* position: absolute; */
+  right: 0;
+  top: 0;
+  /* margin: 0 -5vmin 0 2vmin; */
+  width: 97vmin;
+  /* margin-left: 300px; */
+  margin-top: 20px;
+  margin-left: 2vmin;
+  margin-right: 3vmin;
+
+}
+.to-dos-data-label {
+  color: #c6c6c6;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 10px;
+}
+.post {
+  width: calc(100% - 20px - 1vmin);
+  margin: 0.5vmin auto;
+  margin-top: 1vmin;
+  border-radius: 3px;
+  border: 1px solid #FFFFFF;
+}
+.post-buttons td {
+  text-align: center;
+  width:50%;
+}
+.post-buttons td button{
+    background-color:#FFFFFF;
+    width:80%;
+    margin: 2vmin 0 1vmin 0;
+}
+.post-buttons{
+    border-top: 1px solid #d9d9d9;
+     
+}
 }
 </style> 
