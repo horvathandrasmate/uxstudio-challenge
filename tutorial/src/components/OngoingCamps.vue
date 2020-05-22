@@ -84,7 +84,7 @@
           <td class="relative">
             <img :src="ongoingCampaigns2SVG" class="ongoing-camps-pic inline" />
             <div class="absolute" id="used-platforms">
-              <img :src="instagramRedSVG" class="used-platforms-icon"/>
+              <img :src="instagramRedSVG" class="used-platforms-icon" />
             </div>
           </td>
           <td>
@@ -147,7 +147,158 @@ export default {
 };
 </script>
 <style>
-#new-campaign-button {
+@media screen and (min-width: 1065px) {
+  #new-campaign-button {
+    border: solid 1px #e6004c;
+    background: #f60051;
+    width: 167.41px;
+    height: 16px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    width: 185px;
+    height: 34px;
+    border-radius: 3px;
+  }
+  #dashboard-title {
+    width: 145.64px;
+    height: 22px;
+    color: #484848;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+  #ongoing-camps-title {
+    width: 137.28px;
+    height: 18px;
+    color: #484848;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+  }
+  .campaign {
+    width: 619.9px;
+    height: 114px;
+    background: #ffffff;
+    box-shadow: 0px 2px4px rgba(0, 0, 0, 0.09);
+    border-radius: 3px;
+  }
+  .ongoing-camps-pic {
+    position: relative;
+    top: 0;
+  }
+  .active-text {
+    color: #8d8d8d;
+    font-size: 10.3px;
+    font-weight: 700;
+    line-height: 13px;
+    text-align: center;
+    width: 51px;
+    height: 14px;
+    border: solid 1px #d9d9d9;
+    border-radius: 2px;
+  }
+  .closes-in-x-days {
+    width: 68.72px;
+    height: 12px;
+    color: #8d8d8d;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    margin-left: 10px;
+    /* padding-bottom: 50px; */
+  }
+  .x-influencers {
+    height: 14px;
+    color: #f60051;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+  }
+  .ongoing-campaign-title {
+    width: 213px;
+    height: 36px;
+    color: #484848;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+  }
+  .campaign-mid-text {
+    position: relative;
+  }
+  .campaign-stats {
+    margin-right: 60px;
+  }
+  .campaign-stat-number {
+    color: #f60051;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+  }
+  .campaign-stat-text {
+    color: #8d8d8d;
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 2px;
+  }
+
+  #ringbell-svg {
+    top: 20px;
+    left: 81px;
+  }
+  #used-platforms {
+    background: #ffffff;
+    width: auto;
+    height: auto;
+    bottom: 10px;
+    left: 0;
+    padding-left: 4px;
+    /* max-width: 52px; */
+    max-height: 24px;
+  }
+  .campaign {
+    margin: 1vmin 2vmin 2vmin 0;
+    width: 100%;
+    padding-right: 30px;
+  }
+  #ongoing-camps {
+    margin-left: 2vmin;
+    width: calc(60% + 4vmin);
+
+    margin-right: 2vmin;
+  }
+
+  .campaign-mid-text {
+    margin-left: 18px;
+  }
+  /* #used-platforms img {
+  margin-left: 1vmin;
+} */
+  .ongoing-campaign-title-p {
+    white-space: nowrap;
+  }
+  .closes-in-x-days-p {
+    white-space: nowrap;
+    font-size: 12px;
+  }
+  .campaign-stat-icon {
+    padding-right: 5px;
+    padding-bottom: 2px;
+  }
+  .used-platforms-icon {
+    height: 13px;
+    margin-bottom: 4px;
+    margin-right: 5px;
+    margin-left: 3px;
+  }
+}
+@media screen and (max-width: 1065px) {
+  #new-campaign-button {
   border: solid 1px #e6004c;
   background: #f60051;
   width: 167.41px;
@@ -267,8 +418,8 @@ export default {
 }
 #ongoing-camps {
   margin-left: 2vmin;
-  width: calc(60% + 4vmin);
-
+  width: 95vmin;
+  min-width: 600px;
   margin-right: 2vmin;
 }
 
@@ -294,5 +445,6 @@ export default {
   margin-bottom: 4px;
   margin-right: 5px;
   margin-left: 3px;
+}
 }
 </style>
