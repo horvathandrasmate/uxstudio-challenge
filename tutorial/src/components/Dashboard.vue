@@ -2,12 +2,8 @@
   <div id="main-container" class="absolute">
     <div id="dashboard" class="relative">
       <div id="page-title">
-        <div id="dashboard-title" class="inline">
-          MY DASHBOARD
-        </div>
-        <button id="new-campaign-button" class="inline">
-          CREATE A NEW CAMPAIGN
-        </button>
+        <div id="dashboard-title" class="inline">MY DASHBOARD</div>
+        <button id="new-campaign-button" class="inline">CREATE A NEW CAMPAIGN</button>
       </div>
       <div class="relative">
         <OngoingCamps />
@@ -15,11 +11,10 @@
           <Statistics />
         </div>
         <TopInfluencers />
-
+        <Twitter />
         <MyTodos />
       </div>
-    </div> 
-        <Twitter />
+    </div>
   </div>
 </template>
 
@@ -37,11 +32,11 @@ export default {
     Statistics,
     TopInfluencers,
     MyTodos,
-    Twitter,
+    Twitter
   },
   data() {
     return {};
-  },
+  }
 };
 </script>
 
@@ -52,9 +47,10 @@ export default {
     right: calc(50% - 508px);
   }
   #twitter {
-    position:absolute;
+    /* position: absolute;
     left: calc(50% - 508px);
-    right: calc(50% - 508px);
+    right: calc(50% - 508px); */
+    margin-top: 500px;
   }
 }
 @media screen and (max-width: 1065px) and (min-width: 0px) {
@@ -72,9 +68,9 @@ export default {
     margin: 0px 4px, 0px 4px;
   }
   #twitter {
-    display:block;
-    position:absolute;
-    top:1870px;
+    display: block;
+    position: absolute;
+    top: 1870px;
     width: 375px;
   }
 }
