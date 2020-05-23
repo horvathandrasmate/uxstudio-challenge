@@ -1,20 +1,22 @@
 <template>
   <div id="app">
-   <dashboard /> 
+    <Navbar />
+    <Dashboard />
+    
   </div>
 </template>
 
 <script>
-//import Navbar from "./components/Navbar.vue";
+import Navbar from "./components/Navbar.vue";
 import Dashboard from "./components/Dashboard.vue";
-// import Twitter from "./components/Twitter.vue";
+ 
 
 export default {
   name: "App",
   components: {
-  //  Navbar,
-    Dashboard,
-    // Twitter
+    Navbar,
+    Dashboard
+    
   },
 };
 </script>

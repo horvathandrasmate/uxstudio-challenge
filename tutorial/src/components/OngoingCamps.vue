@@ -298,6 +298,7 @@ export default {
   }
 }
 @media screen and (max-width: 1065px) {
+  
   #new-campaign-button {
   border: solid 1px #e6004c;
   background: #f60051;
@@ -328,12 +329,18 @@ export default {
   line-height: 18px;
 }
 .campaign {
-  width: 619.9px;
+  width: 360px !important;
   height: 114px;
   background: #ffffff;
   box-shadow: 0px 2px4px rgba(0, 0, 0, 0.09);
   border-radius: 3px;
-}
+}#ongoing-camps{
+    width:375px ;
+  }
+  .campaign-stats{
+    display:none !important;
+  }
+  
 .ongoing-camps-pic {
   position: relative;
   top: 0;
@@ -419,7 +426,6 @@ export default {
 #ongoing-camps {
   margin-left: 2vmin;
   width: 95vmin;
-  min-width: 600px;
   margin-right: 2vmin;
 }
 

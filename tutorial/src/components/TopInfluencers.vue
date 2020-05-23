@@ -1,5 +1,5 @@
 <template>
-  <div id="top-influencers-container" class>
+  <div id="top-influencers-container" >
     <div id="top-influencers-title">Top Influencers</div>
     <div id="influencers-list">
       <table id="top-influencers-elements">

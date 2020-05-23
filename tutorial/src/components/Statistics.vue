@@ -121,7 +121,7 @@ export default {
     return {
       snapchatGreySVG: require("../assets/svg/snapchat-grey.svg"),
       instagramGreySVG: require("../assets/svg/instagram-grey.svg"),
-      downArrowSVG: require("../assets/svg/down-arrow.svg"),
+      downArrowSVG: require("../assets/svg/arrow-down.svg"),
       instagramWhiteSVG: require("../assets/svg/instagram-white.svg")
     };
   }

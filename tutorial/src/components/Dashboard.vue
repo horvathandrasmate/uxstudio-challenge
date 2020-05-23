@@ -1,23 +1,25 @@
 <template>
-  <div id="dashboard" class="relative">
-    <div id="page-title">
-      <div id="dashboard-title" class="inline">
-        MY DASHBOARD
+  <div id="main-container" class="absolute">
+    <div id="dashboard" class="relative">
+      <div id="page-title">
+        <div id="dashboard-title" class="inline">
+          MY DASHBOARD
+        </div>
+        <button id="new-campaign-button" class="inline">
+          CREATE A NEW CAMPAIGN
+        </button>
       </div>
-      <button id="new-campaign-button" class="inline">
-        CREATE A NEW CAMPAIGN
-      </button>
-    </div>
-    <div class="relative">
-      <OngoingCamps />
-      <div id="lower-panel">
-        <Statistics />
-      </div>
+      <div class="relative">
+        <OngoingCamps />
+        <div id="lower-panel">
+          <Statistics />
+        </div>
         <TopInfluencers />
-      <!-- <br> -->
-      <MyTodos />
-      <Twitter />
-    </div>
+
+        <MyTodos />
+      </div>
+    </div> 
+        <Twitter />
   </div>
 </template>
 
@@ -26,7 +28,7 @@ import OngoingCamps from "./OngoingCamps.vue";
 import Statistics from "./Statistics.vue";
 import TopInfluencers from "./TopInfluencers.vue";
 import MyTodos from "./MyTodos.vue";
-// import Twitter from "./Twitter.vue";
+import Twitter from "./Twitter.vue";
 
 export default {
   name: "App",
@@ -35,7 +37,7 @@ export default {
     Statistics,
     TopInfluencers,
     MyTodos,
-    // Twitter,
+    Twitter,
   },
   data() {
     return {};
@@ -44,6 +46,41 @@ export default {
 </script>
 
 <style>
+@media screen and (min-width: 1065px) {
+  #main-container {
+    left: calc(50% - 508px);
+    right: calc(50% - 508px);
+  }
+  #twitter {
+    position:absolute;
+    left: calc(50% - 508px);
+    right: calc(50% - 508px);
+  }
+}
+@media screen and (max-width: 1065px) and (min-width: 0px) {
+  html {
+    width: 375px;
+    height: 100%;
+  }
+  #page-title {
+    width: 375px;
+  }
+  #dashboard {
+    max-width: 375px;
+  }
+  #ongoing-camps {
+    margin: 0px 4px, 0px 4px;
+  }
+  #twitter {
+    display:block;
+    position:absolute;
+    top:1870px;
+    width: 375px;
+  }
+}
+#main-container {
+  top: 90px;
+}
 .inline {
   display: inline-block;
 }
