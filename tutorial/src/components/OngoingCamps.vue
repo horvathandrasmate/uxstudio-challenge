@@ -329,7 +329,7 @@ export default {
   line-height: 18px;
 }
 .campaign {
-  width: 360px !important;
+  /* width: 360px !important; */
   height: 114px;
   background: #ffffff;
   box-shadow: 0px 2px4px rgba(0, 0, 0, 0.09);
@@ -420,7 +420,7 @@ export default {
 }
 .campaign {
   margin: 1vmin 2vmin 2vmin 0;
-  width: 100%;
+  width: 97vmin;
   padding-right: 30px;
 }
 #ongoing-camps {
